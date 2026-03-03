@@ -78,39 +78,39 @@ When you build a Maven project, the **`target/`** folder is created. This folder
 
 Common Maven commands using the wrapper:
 
-- **Clean build outputs:**  
+**Clean build outputs:**  
 ```bash
 ./mvnw clean  
 ```
 
-- **Compile main source code (`src/main/java`):**  
+**Compile main source code (`src/main/java`):**  
 ```bash
 ./mvnw compile  
 ```
 
-- **Compile and run tests (`src/test/java`):**  
+**Compile and run tests (`src/test/java`):**  
 ```bash      
 ./mvnw test
 ```  
-Or combine compile and test:  
+OR 
 ```bash
 ./mvnw compile test  
 ```
 
-- **Package compiled code into a JAR file:**  
+**Package compiled code into a JAR file:**  
 ```bash
 ./mvnw package
 ```  
-Or combine compile, test, and package:  
+OR
 ```bash      
 ./mvnw compile test package  
 ```
 
-- **Install the packaged JAR into your local Maven repository:**  
+**Install the packaged JAR into your local Maven repository:**  
 ```bash
 ./mvnw install
 ```  
-Or combine compile, test, package, and install:  
+OR 
 ```bash
 ./mvnw compile test package install
 ```
