@@ -6,7 +6,6 @@ Maven is a build automation and project management tool for Java projects.
 
 You can think of it as the Java equivalent of Python’s `pip` or `setuptools`.
 
----
 
 ## Key Features
 
@@ -14,7 +13,6 @@ You can think of it as the Java equivalent of Python’s `pip` or `setuptools`.
 - Provides a standardized project structure based on conventions.  
 - Supports plugins to run quality checks, build tasks, or deploy applications.
 
----
 
 ## How to Identify a Maven Project
 
@@ -44,7 +42,6 @@ my-app/
         └── resources/
 ```
 
----
 
 ## How to Install Maven
 
@@ -74,7 +71,6 @@ To verify that the project is successfully recognized as a Maven project, run:
 ./mvnw validate
 ```
 
----
 
 ## Running a Maven Project
 
@@ -119,7 +115,6 @@ Or combine compile, test, package, and install:
 ./mvnw compile test package install
 ```
 
----
 
 ## Multi-Module Maven Projects
 
