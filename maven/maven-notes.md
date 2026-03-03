@@ -31,6 +31,7 @@ The `pom.xml` defines the project and its configuration. Typical sections includ
 
 **Example project structure:**
 
+```text
 my-app/
 │
 ├── pom.xml
@@ -41,6 +42,7 @@ my-app/
     └── test/
         ├── java/
         └── resources/
+```
 
 ---
 
@@ -129,6 +131,7 @@ Maven supports **multi-module projects**, which allow you to organize a large ap
 
 **Example multi-module structure:**
 
+```text
 my-multi-app/
 │
 ├── pom.xml        # parent POM
@@ -138,6 +141,7 @@ my-multi-app/
 └── module-b/
     ├── pom.xml
     └── src/
+```
 
 **Building multi-module projects:**  
 Run Maven commands at the parent level:  
