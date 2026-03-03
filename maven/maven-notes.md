@@ -139,6 +139,7 @@ my-multi-app/
 ```
 
 **Building multi-module projects:**  
+
 Run the following Maven commands at the parent level...
 ```bash
 ./mvnw clean install  
